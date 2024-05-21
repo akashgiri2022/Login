@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(110, 0, 253);
+}
+.logo-box{
+    background: white;
+    padding:30px 120px;
+    width: 550px;
+    position:absolute; 
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%,-50%); 
+    border-radius: 10px;
+    text-align: center;
+}
+.logo{
+    width: 40px;
+    margin-bottom: 20px;
+    
+}
+.logo-box h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo-box button{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ios,.google{
+    height: 30px;
+}
+
+.logo-box input{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
