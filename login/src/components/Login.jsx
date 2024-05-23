@@ -33,6 +33,10 @@ function Login() {
             <input type="text" placeholder="Phone email or username"/>
             <button>Next</button>
           </form>
+          <button>Forget Password</button>
+          <p>
+            Don't Have an account <a> Sign Up</a>
+          </p>
         </div>
       </div>
     </>

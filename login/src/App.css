@@ -61,3 +61,22 @@ body{
     padding: 10px;
 }
 /* comment added for git */
+
+.logo-box form button{
+    background: black;
+    color: antiquewhite;
+}
+
+.logo-box p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin: 40px 0px 50px;
+}
+
+.logo-box p a{
+
+    text-decoration: none;
+    color: #359cf0;
+    margin-left: 100px;
+}
